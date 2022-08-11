@@ -11,7 +11,6 @@ def show_name(names_file):
         print(name, end='')
     my_file.close()
 
-
 for i in range(5):
     save_name("names.txt")
 show_name("names.txt")
