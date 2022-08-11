@@ -1,5 +1,6 @@
 import ast
 
+b = haim
 my_file = open("config.json")
 c = dict(ast.literal_eval(my_file.read()))
 
