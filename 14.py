@@ -1,6 +1,7 @@
 import ast
 
 my_file = open("config.json")
+b = britney
 c = dict(ast.literal_eval(my_file.read()))
 
 with open("names.txt") as my_file:
